@@ -1,0 +1,18 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Visual Studio Code settings folder
+.vscode/
+
+# Ignore build directories (both build and build-debug)
+build/
+build-debug/
+
+# Ignore CMake specific temporary files
+CMakeFiles/
+CMakeCache.txt
+
+# Ignore compiled binaries and executables
+*.exe
+*.out
+*.o
